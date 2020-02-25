@@ -400,7 +400,6 @@ And now, to complete our classic search example, let's make `query` observable a
 <span class="p">}</span>
 </code></pre></div></div>
 
-Isn't 
 
 ## @State
 
@@ -496,7 +495,7 @@ I've missed you, `@`. I'm glad SwiftUI finally brings you back, and in a big way
 
 Most of the current complaints about SwiftUI come with regards to its incomplete component library. There are some glaring gaps there. I wish Apple was more clear in their communication. We've already been there in 2014 when Swift 1.0 was presented as a production-ready language (spoiler alert: it wasn’t). A similar thing is happening with SwiftUI.
 
-SwiftUI in its current form seems more like a proof of concept which goal is to show that Apple's platonic ideal of a UI framework can be brought to reality. It has the best syntax, the best data flow, and the best layout system. The only thing that is lacking is the component library.
+SwiftUI in its current form seems more like a proof of concept which goal is to show that Apple's platonic ideal of a UI framework can be brought to reality. It has the best syntax, the best data flow, and the best layout system. The only thing that is lacking is the component library and it's surely just a matter of time when it becomes complete like UIKit (or hopefully better than UIKit!).
 
 Some people also raised performance concerns regarding SwiftUI data flow. I don't necessarily share them. In my experience working on large apps using reactive programming frameworks, I haven't found this to be an issue. And SwiftUI has even more potential for optimization. Views are lightweight. When Apple finishes optimizing SwiftUI, I think you should be able to re-create the entire view graph of you application 60 times a second and the framework should be able to handle it. This might sound outlandish, but not to someone who has written a computer game before.
 
